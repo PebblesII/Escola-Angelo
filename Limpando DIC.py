@@ -4,6 +4,9 @@ print(Dic)
 
 print(Dic["A"])
 
-Dic.clear()
+#Dic.clear()
 
 print(Dic)
+
+
+print(Dic.get("B"))
