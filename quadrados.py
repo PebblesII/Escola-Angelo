@@ -37,3 +37,11 @@ for msg in mesagem2:
 print(mesagem2)
 print(maisculo2)
 
+
+q = {x: x**2 for x in range(10) if x %2 == 0 }
+print(q)
+
+q2 = {}
+for x in range(1, 6):
+    q2[x] = x**2
+print(q2)
