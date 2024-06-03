@@ -26,3 +26,14 @@ maisculo = [msg.upper() for msg in mesagem]
 
 print(mesagem)
 print(maisculo)
+
+
+mesagem2 = ["a"]
+maisculo2 = []
+
+for msg in mesagem2:
+    maisculo2.append(msg.upper())
+
+print(mesagem2)
+print(maisculo2)
+
