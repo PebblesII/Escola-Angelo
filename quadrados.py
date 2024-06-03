@@ -8,3 +8,21 @@ for x in range(1, 6):
 
 
 print(quadrados2)
+
+
+pares = [x for x in range(10) if x %2 == 0]
+print(pares)
+
+
+pares2 = []
+for x in range(10):
+    if x % 2 == 0:
+        pares2.append(x)
+print(pares2)
+
+
+mesagem = ["Hoje", "estou", "animado!"]
+maisculo = [msg.upper() for msg in mesagem]
+
+print(mesagem)
+print(maisculo)
