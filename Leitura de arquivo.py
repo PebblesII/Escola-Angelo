@@ -4,11 +4,9 @@ with open("Arquivo.txt", "w") as arquivo:
        linhas = ["Proxima linha", "Outra linha"]
        arquivo.writelines(linhas)
 
-#with open("Arquivo.txt", "r") as arquivo:
-#        arquivo = arquivo.read()
-#        linhas = arquivo.readlines()
-#        for linhas in arquivo:
-#                print(linhas)
+with open("Arquivo.txt", "r") as arquivo: 
+        for linhas in arquivo:
+                print(linhas)
 
 
 texto = "Mesagem"
